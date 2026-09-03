@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #181818;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logoname {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .HappyCat {
+            width: 60px;
+        }
+
+        ul {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: gray;
+        }
+
+        .divApresentacao {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 80px;
+        }
+
+        .texto {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .texto h2 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .divApresentacao img {
+            width: 450px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logoname">
+            <img class="HappyCat" src="assets/happycat.png" alt="HappyCat">
+            <h1>aggs</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre mim</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="divApresentacao">
+        <div class="texto">
+            <h2>Iniciante Dev Frontend</h2>
+            <h2>Desenvolvimento Web</h2>
+        </div>
+
+        <img src="assets/minedog.png" alt="Dog">
+    </div>
+</body>
+</html>
